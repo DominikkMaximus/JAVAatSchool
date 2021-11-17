@@ -8,7 +8,9 @@ public class prastevila {
 		vhod.close();
 		boolean prastevilo = true;
 		int i = 2;
-		int n = 0;
+		int n = 1;
+		if (stevec != 0)
+			System.out.println(2);
 		while (n < stevec) {
 			for (int j = 2; j < Math.ceil(Math.sqrt(i) + 1); j++) {
 				if (i % j == 0) {
