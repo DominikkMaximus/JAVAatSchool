@@ -6,6 +6,6 @@ class sumdiagonal {
     int diagonal2 = 0;
     for (int i = 0; i < tab.length; i++){
       diagonal1+=tab[i][i];
-      diagonal2+=tab[i][tab.length-1-i];
+      diagonal2+=tab[tab.length-1-i][i];
     }
     S
