@@ -1,5 +1,4 @@
-class stejsubstring {
-  public static void main(String[] args) {
+   public static void stejsubstring(String[] args) {
     String besedilo ="danes je lep dan";
     String substring = "dan";
     int stPonvitev =stejPonovitve(besedilo,substring); 
@@ -16,4 +15,3 @@ class stejsubstring {
     }
     return stPonovitev;
   }
-}
