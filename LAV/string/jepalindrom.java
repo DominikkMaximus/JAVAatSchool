@@ -11,7 +11,7 @@
   
   //z zanko
   boolean jepalindrom=true;
-  for(int i=0;i<niz.length();i++){
+  for(int i=0;i<niz.length()/2+1;i++){
     if(niz.charAt(i)!=niz.charAt(niz.length()-1-i)){
       jepalindrom=false;
       break;
