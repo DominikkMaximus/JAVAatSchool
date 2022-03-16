@@ -8,10 +8,7 @@ class shortstring {
         stevec++;
         j++;
       }
-      if(stevec>1){
-        kratko=kratko.concat(niz.charAt(i)+""+stevec);
-      }else
-        kratko=kratko.concat(niz.charAt(i)+"");
+      kratko=kratko.concat(niz.charAt(i)+""+stevec);
       i=j;
     }
     System.out.println(kratko);
