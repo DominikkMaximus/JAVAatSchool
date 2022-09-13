@@ -1,6 +1,7 @@
 class Main {
 	public static void main(String[] args) {
-
+avto Audi_S8= new avto("Janez","Novak","bela",80000,5.05,2200,5);
+		Audi_S8.preberi();
 	}
 }
 
